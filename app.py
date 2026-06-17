@@ -15,7 +15,7 @@ from langchain_classic.chains.combine_documents import create_stuff_documents_ch
 api_key = st.secrets["GEMINI_API_KEY"]
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.0-flash",
+    model="gemini-flash-lite-latest",
     google_api_key=api_key
 )
 
